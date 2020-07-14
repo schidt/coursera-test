@@ -1,0 +1,73 @@
+* {
+	box-sizing: border-box;
+	font-size:100%;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+h1{
+	text-align: center;
+	margin-top:40px;
+	margin-bottom: 5%;
+	font-size:175%;
+}
+
+section {
+	border:1px solid black;
+	background-color:#33BBFF;
+	height:250px;
+	width:auto;
+	margin:20px 10px 20px 10px;
+}
+
+.section-title {
+	float:right;
+	text-align: center;
+	height:35px;
+	width:115px;
+	border-bottom: 1px solid black;
+	border-left: 1px solid black; /*don't use border: here because it overlaps with the container's border which makes it look werid.*/
+	padding:5px;
+	margin:0px; /*to overwrite browser default*/
+	font-size:125%;
+	font-weight:700;
+}
+
+#chicken .section-title{
+	background-color:#FFBBBB;
+}
+
+#beef .section-title{
+	background-color:#22BB55;
+}
+
+#sushi .section-title{
+	background-color:#AAAAFF;
+}
+
+p.contents {
+	clear:right;
+	padding:15px;
+	font-weight:600;
+	height:80%;
+	overflow:auto;
+}
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+	.col-lg-4 {
+		float:left;
+	    width: 33.33%;
+	}
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+	.col-md-6 {
+		float:left;
+	    width: 50%;
+	  }
+	.col-md-12 {
+		clear:left;
+		width:100%;
+	}
+}
