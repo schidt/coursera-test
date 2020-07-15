@@ -5,8 +5,8 @@
 }
 
 body {
-	margin:0px;
-}
+	margin:10px; /* to overwrite default browser's 8px. set to 10px because section margin is 10px, so the result will be */
+} /* section to browser edge gap = 20px, section to section gap = 20px. so looks all even. */
 
 h1{
 	text-align: center;
