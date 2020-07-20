@@ -22,17 +22,15 @@ h1 {
 	background-color:black;
 }
 
-#content {
+section {
 	background-color: gray;
 	color:black;
+	padding: 2px 15px 5px;
+	margin-top:15px;
 }
 
 h2 {
 	margin-bottom: 20px;
-}
-
-h3 {
-	text-align: center;
 }
 
 @media (max-width: 767px) {
