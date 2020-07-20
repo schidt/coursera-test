@@ -1,0 +1,58 @@
+/*header*/
+.navbar {
+	background-color: gray;
+	margin-bottom:5px;
+}
+
+.navbar-brand {
+	height:auto;
+}
+
+h1 {
+	color:black;
+}
+
+.navbar-default .navbar-toggle {
+	margin-top:30px;
+	border-color:black;
+	height:40px;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+	background-color:black;
+}
+
+#content {
+	background-color: gray;
+	color:black;
+}
+
+h2 {
+	margin-bottom: 20px;
+}
+
+h3 {
+	text-align: center;
+}
+
+@media (max-width: 767px) {
+
+	#main-content{
+		width:90%;
+	}
+
+	#collapsable-nav{
+		background-color: #3399FF;
+		border:1px solid black;
+		padding:0;
+	}
+
+	.navbar-nav {
+	    margin: 0;
+	}
+
+	#collapsable-nav a{
+		color:black;
+		border:1px solid black;
+	}
+}
