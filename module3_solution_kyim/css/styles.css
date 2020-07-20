@@ -35,10 +35,6 @@ h2 {
 
 @media (max-width: 767px) {
 
-	#main-content{
-		width:90%;
-	}
-
 	#collapsable-nav{
 		background-color: #3399FF;
 		border:1px solid black;
@@ -53,4 +49,8 @@ h2 {
 		color:black;
 		border:1px solid black;
 	}
+}
+
+.container {
+	width:100%;
 }
